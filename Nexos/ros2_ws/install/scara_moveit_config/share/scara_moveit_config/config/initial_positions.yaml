@@ -1,0 +1,4 @@
+# Default initial positions for SCARA_EIA_Tesis's ros2_control fake system
+
+initial_positions:
+  rev1: 0

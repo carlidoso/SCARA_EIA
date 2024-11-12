@@ -1,0 +1,22 @@
+[0.915s] Invoking command in '/home/eia/ros2_ws/src/SCARA_EIA_Tesis_description': PYTHONPATH=/home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/SCARA_EIA_Tesis_description build --build-base /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/build install --record /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/install.log --install-scripts $base/lib/SCARA_EIA_Tesis_description --single-version-externally-managed install_data
+[1.119s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.119s]   warnings.warn(
+[1.125s] running egg_info
+[1.126s] writing ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/PKG-INFO
+[1.133s] writing dependency_links to ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/dependency_links.txt
+[1.133s] writing entry points to ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/entry_points.txt
+[1.133s] writing requirements to ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/requires.txt
+[1.133s] writing top-level names to ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/top_level.txt
+[1.135s] reading manifest file '../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/SOURCES.txt'
+[1.136s] writing manifest file '../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/SOURCES.txt'
+[1.137s] running build
+[1.137s] running build_py
+[1.137s] running install
+[1.138s] running install_lib
+[1.139s] running install_data
+[1.140s] running install_egg_info
+[1.141s] removing '/home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/lib/python3.10/site-packages/SCARA_EIA_Tesis_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.141s] Copying ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info to /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/lib/python3.10/site-packages/SCARA_EIA_Tesis_description-0.0.0-py3.10.egg-info
+[1.142s] running install_scripts
+[1.160s] writing list of installed files to '/home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/install.log'
+[1.179s] Invoked command in '/home/eia/ros2_ws/src/SCARA_EIA_Tesis_description' returned '0': PYTHONPATH=/home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/SCARA_EIA_Tesis_description build --build-base /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/build install --record /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/install.log --install-scripts $base/lib/SCARA_EIA_Tesis_description --single-version-externally-managed install_data

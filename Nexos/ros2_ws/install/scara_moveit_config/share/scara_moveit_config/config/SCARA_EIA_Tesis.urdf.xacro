@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="SCARA_EIA_Tesis">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import SCARA_EIA_Tesis urdf file -->
+    <xacro:include filename="$(find SCARA_EIA_Tesis_description)/urdf/SCARA_EIA_Tesis.xacro" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="SCARA_EIA_Tesis.ros2_control.xacro" />
+
+
+    <xacro:SCARA_EIA_Tesis_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

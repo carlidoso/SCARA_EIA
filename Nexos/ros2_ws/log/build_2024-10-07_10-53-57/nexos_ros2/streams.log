@@ -1,0 +1,67 @@
+[0.868s] Invoking command in '/home/eia/ros2_ws/src/nexos_ros2': PYTHONPATH=/home/eia/ros2_ws/build/nexos_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nexos_ros2 build --build-base /home/eia/ros2_ws/build/nexos_ros2/build install --record /home/eia/ros2_ws/build/nexos_ros2/install.log --single-version-externally-managed install_data
+[1.134s] running egg_info
+[1.134s] creating ../../build/nexos_ros2/nexos_ros2.egg-info
+[1.135s] writing ../../build/nexos_ros2/nexos_ros2.egg-info/PKG-INFO
+[1.136s] writing dependency_links to ../../build/nexos_ros2/nexos_ros2.egg-info/dependency_links.txt
+[1.136s] writing entry points to ../../build/nexos_ros2/nexos_ros2.egg-info/entry_points.txt
+[1.137s] writing requirements to ../../build/nexos_ros2/nexos_ros2.egg-info/requires.txt
+[1.137s] writing top-level names to ../../build/nexos_ros2/nexos_ros2.egg-info/top_level.txt
+[1.137s] writing manifest file '../../build/nexos_ros2/nexos_ros2.egg-info/SOURCES.txt'
+[1.139s] reading manifest file '../../build/nexos_ros2/nexos_ros2.egg-info/SOURCES.txt'
+[1.141s] writing manifest file '../../build/nexos_ros2/nexos_ros2.egg-info/SOURCES.txt'
+[1.141s] running build
+[1.141s] running build_py
+[1.141s] creating /home/eia/ros2_ws/build/nexos_ros2/build
+[1.142s] creating /home/eia/ros2_ws/build/nexos_ros2/build/lib
+[1.142s] creating /home/eia/ros2_ws/build/nexos_ros2/build/lib/nexos_ros2
+[1.142s] copying nexos_ros2/__init__.py -> /home/eia/ros2_ws/build/nexos_ros2/build/lib/nexos_ros2
+[1.142s] copying nexos_ros2/nodo_cin_inv.py -> /home/eia/ros2_ws/build/nexos_ros2/build/lib/nexos_ros2
+[1.142s] copying nexos_ros2/nodo_app.py -> /home/eia/ros2_ws/build/nexos_ros2/build/lib/nexos_ros2
+[1.142s] creating /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource
+[1.142s] copying resource/__init__.py -> /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource
+[1.143s] creating /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara
+[1.143s] copying resource/app_scara/main.py -> /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara
+[1.143s] copying resource/app_scara/__init__.py -> /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara
+[1.143s] creating /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/src
+[1.143s] copying resource/app_scara/src/__init__.py -> /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/src
+[1.143s] copying resource/app_scara/src/cinematica_inversa.py -> /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/src
+[1.143s] copying resource/app_scara/src/cinematica_directa.py -> /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/src
+[1.144s] running install
+[1.144s] running install_lib
+[1.144s] creating /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2
+[1.144s] copying /home/eia/ros2_ws/build/nexos_ros2/build/lib/nexos_ros2/__init__.py -> /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2
+[1.144s] copying /home/eia/ros2_ws/build/nexos_ros2/build/lib/nexos_ros2/nodo_cin_inv.py -> /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2
+[1.145s] copying /home/eia/ros2_ws/build/nexos_ros2/build/lib/nexos_ros2/nodo_app.py -> /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2
+[1.145s] creating /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource
+[1.145s] copying /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/__init__.py -> /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource
+[1.145s] creating /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara
+[1.145s] copying /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/main.py -> /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara
+[1.145s] copying /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/__init__.py -> /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara
+[1.145s] creating /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/src
+[1.145s] copying /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/src/__init__.py -> /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/src
+[1.145s] copying /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/src/cinematica_inversa.py -> /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/src
+[1.146s] copying /home/eia/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/src/cinematica_directa.py -> /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/src
+[1.146s] byte-compiling /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2/__init__.py to __init__.cpython-310.pyc
+[1.146s] byte-compiling /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2/nodo_cin_inv.py to nodo_cin_inv.cpython-310.pyc
+[1.146s] byte-compiling /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2/nodo_app.py to nodo_app.cpython-310.pyc
+[1.147s] byte-compiling /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/__init__.py to __init__.cpython-310.pyc
+[1.147s] byte-compiling /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/main.py to main.cpython-310.pyc
+[1.148s] byte-compiling /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/__init__.py to __init__.cpython-310.pyc
+[1.148s] byte-compiling /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/src/__init__.py to __init__.cpython-310.pyc
+[1.148s] byte-compiling /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/src/cinematica_inversa.py to cinematica_inversa.cpython-310.pyc
+[1.149s] byte-compiling /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/src/cinematica_directa.py to cinematica_directa.cpython-310.pyc
+[1.151s] running install_data
+[1.151s] creating /home/eia/ros2_ws/install/nexos_ros2/share/ament_index
+[1.151s] creating /home/eia/ros2_ws/install/nexos_ros2/share/ament_index/resource_index
+[1.151s] creating /home/eia/ros2_ws/install/nexos_ros2/share/ament_index/resource_index/packages
+[1.151s] copying resource/nexos_ros2 -> /home/eia/ros2_ws/install/nexos_ros2/share/ament_index/resource_index/packages
+[1.151s] copying package.xml -> /home/eia/ros2_ws/install/nexos_ros2/share/nexos_ros2
+[1.151s] creating /home/eia/ros2_ws/install/nexos_ros2/share/nexos_ros2/launch
+[1.152s] copying launch/nexos.launch.py -> /home/eia/ros2_ws/install/nexos_ros2/share/nexos_ros2/launch
+[1.152s] running install_egg_info
+[1.154s] Copying ../../build/nexos_ros2/nexos_ros2.egg-info to /home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2-0.0.0-py3.10.egg-info
+[1.154s] running install_scripts
+[1.176s] Installing cinematica_inversa script to /home/eia/ros2_ws/install/nexos_ros2/lib/nexos_ros2
+[1.176s] Installing nexos_app script to /home/eia/ros2_ws/install/nexos_ros2/lib/nexos_ros2
+[1.177s] writing list of installed files to '/home/eia/ros2_ws/build/nexos_ros2/install.log'
+[1.206s] Invoked command in '/home/eia/ros2_ws/src/nexos_ros2' returned '0': PYTHONPATH=/home/eia/ros2_ws/build/nexos_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nexos_ros2 build --build-base /home/eia/ros2_ws/build/nexos_ros2/build install --record /home/eia/ros2_ws/build/nexos_ros2/install.log --single-version-externally-managed install_data

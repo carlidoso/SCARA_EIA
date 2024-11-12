@@ -1,0 +1,4 @@
+[console_scripts]
+cinematica_inversa = nexos_ros2.nodo_cin_inv:main
+nexos_app = nexos_ros2.nodo_app:main
+

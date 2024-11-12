@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<robot name="SCARA_EIA_Tesis" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<link name="base_link">
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find SCARA_EIA_Tesis_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find SCARA_EIA_Tesis_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Shoulder_1">
+  <visual>
+    <origin xyz="0.0 0.0 -0.304" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find SCARA_EIA_Tesis_description)/meshes/Shoulder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 -0.304" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find SCARA_EIA_Tesis_description)/meshes/Shoulder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Elbow_1">
+  <visual>
+    <origin xyz="-0.22 -0.0 -0.36975" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find SCARA_EIA_Tesis_description)/meshes/Elbow_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin xyz="-0.22 -0.0 -0.36975" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find SCARA_EIA_Tesis_description)/meshes/Elbow_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="FinalEfector_1">
+  <visual>
+    <origin xyz="-0.485 -0.0 -0.80075" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find SCARA_EIA_Tesis_description)/meshes/FinalEfector_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin xyz="-0.485 -0.0 -0.80075" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find SCARA_EIA_Tesis_description)/meshes/FinalEfector_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="rev1" type="revolute">
+  <origin xyz="0.0 0.0 0.304" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Shoulder_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+  <limit upper="1.0821" lower="-1.0821" effort="100.0" velocity="100.0"/>
+</joint>
+
+<joint name="rev2" type="revolute">
+  <origin xyz="0.22 0.0 0.06575" rpy="0 0 0"/>
+  <parent link="Shoulder_1"/>
+  <child link="Elbow_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+  <limit upper="1.9024" lower="-1.9024" effort="100.0" velocity="100.0"/>
+</joint>
+
+<joint name="prismatic1" type="prismatic">
+  <origin xyz="0.265 0.0 0.431" rpy="0 0 0"/>
+  <parent link="Elbow_1"/>
+  <child link="FinalEfector_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+  <limit upper="0.0" lower="-0.257" effort="100.0" velocity="100.0"/>
+</joint>
+
+</robot>

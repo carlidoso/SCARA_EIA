@@ -1,0 +1,8 @@
+source;share/nexos_aplication/hook/cmake_prefix_path.ps1
+source;share/nexos_aplication/hook/cmake_prefix_path.dsv
+source;share/nexos_aplication/hook/cmake_prefix_path.sh
+source;share/nexos_aplication/local_setup.bash
+source;share/nexos_aplication/local_setup.dsv
+source;share/nexos_aplication/local_setup.ps1
+source;share/nexos_aplication/local_setup.sh
+source;share/nexos_aplication/local_setup.zsh

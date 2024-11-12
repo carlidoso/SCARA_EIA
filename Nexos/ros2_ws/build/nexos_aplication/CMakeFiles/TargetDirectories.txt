@@ -1,0 +1,11 @@
+/home/eia/ros2_ws/build/nexos_aplication/CMakeFiles/uninstall.dir
+/home/eia/ros2_ws/build/nexos_aplication/CMakeFiles/nexos_aplication_uninstall.dir
+/home/eia/ros2_ws/build/nexos_aplication/CMakeFiles/moveit2_planner.dir
+/home/eia/ros2_ws/build/nexos_aplication/CMakeFiles/moveit2_publisher.dir
+/home/eia/ros2_ws/build/nexos_aplication/CMakeFiles/test.dir
+/home/eia/ros2_ws/build/nexos_aplication/CMakeFiles/edit_cache.dir
+/home/eia/ros2_ws/build/nexos_aplication/CMakeFiles/rebuild_cache.dir
+/home/eia/ros2_ws/build/nexos_aplication/CMakeFiles/list_install_components.dir
+/home/eia/ros2_ws/build/nexos_aplication/CMakeFiles/install.dir
+/home/eia/ros2_ws/build/nexos_aplication/CMakeFiles/install/local.dir
+/home/eia/ros2_ws/build/nexos_aplication/CMakeFiles/install/strip.dir

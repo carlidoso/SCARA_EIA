@@ -1,0 +1,4 @@
+source;share/nexos_aplication/local_setup.bash
+source;share/nexos_aplication/local_setup.dsv
+source;share/nexos_aplication/local_setup.sh
+source;share/nexos_aplication/local_setup.zsh

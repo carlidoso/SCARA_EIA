@@ -1,0 +1,25 @@
+[0.588s] Invoking command in '/home/eia/Nexos/ros2_ws/src/nexos_ros2': PYTHONPATH=/home/eia/Nexos/ros2_ws/build/nexos_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nexos_ros2 build --build-base /home/eia/Nexos/ros2_ws/build/nexos_ros2/build install --record /home/eia/Nexos/ros2_ws/build/nexos_ros2/install.log --single-version-externally-managed install_data
+[0.814s] running egg_info
+[0.814s] writing ../../build/nexos_ros2/nexos_ros2.egg-info/PKG-INFO
+[0.814s] writing dependency_links to ../../build/nexos_ros2/nexos_ros2.egg-info/dependency_links.txt
+[0.815s] writing entry points to ../../build/nexos_ros2/nexos_ros2.egg-info/entry_points.txt
+[0.815s] writing requirements to ../../build/nexos_ros2/nexos_ros2.egg-info/requires.txt
+[0.815s] writing top-level names to ../../build/nexos_ros2/nexos_ros2.egg-info/top_level.txt
+[0.816s] reading manifest file '../../build/nexos_ros2/nexos_ros2.egg-info/SOURCES.txt'
+[0.817s] writing manifest file '../../build/nexos_ros2/nexos_ros2.egg-info/SOURCES.txt'
+[0.817s] running build
+[0.817s] running build_py
+[0.818s] copying resource/app_scara/src/cinematica_directa.py -> /home/eia/Nexos/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/src
+[0.818s] running install
+[0.818s] running install_lib
+[0.819s] copying /home/eia/Nexos/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/src/cinematica_directa.py -> /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/src
+[0.820s] byte-compiling /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/src/cinematica_directa.py to cinematica_directa.cpython-310.pyc
+[0.822s] running install_data
+[0.822s] running install_egg_info
+[0.824s] removing '/home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.824s] Copying ../../build/nexos_ros2/nexos_ros2.egg-info to /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2-0.0.0-py3.10.egg-info
+[0.825s] running install_scripts
+[0.844s] Installing cinematica_inversa script to /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/nexos_ros2
+[0.844s] Installing nexos_app script to /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/nexos_ros2
+[0.844s] writing list of installed files to '/home/eia/Nexos/ros2_ws/build/nexos_ros2/install.log'
+[0.860s] Invoked command in '/home/eia/Nexos/ros2_ws/src/nexos_ros2' returned '0': PYTHONPATH=/home/eia/Nexos/ros2_ws/build/nexos_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nexos_ros2 build --build-base /home/eia/Nexos/ros2_ws/build/nexos_ros2/build install --record /home/eia/Nexos/ros2_ws/build/nexos_ros2/install.log --single-version-externally-managed install_data

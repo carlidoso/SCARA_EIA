@@ -1,0 +1,31 @@
+[0.617s] Invoking command in '/home/eia/Nexos/ros2_ws/src/nexos_ros2': PYTHONPATH=/home/eia/Nexos/ros2_ws/build/nexos_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nexos_ros2 build --build-base /home/eia/Nexos/ros2_ws/build/nexos_ros2/build install --record /home/eia/Nexos/ros2_ws/build/nexos_ros2/install.log --single-version-externally-managed install_data
+[0.853s] running egg_info
+[0.854s] writing ../../build/nexos_ros2/nexos_ros2.egg-info/PKG-INFO
+[0.854s] writing dependency_links to ../../build/nexos_ros2/nexos_ros2.egg-info/dependency_links.txt
+[0.854s] writing entry points to ../../build/nexos_ros2/nexos_ros2.egg-info/entry_points.txt
+[0.854s] writing requirements to ../../build/nexos_ros2/nexos_ros2.egg-info/requires.txt
+[0.854s] writing top-level names to ../../build/nexos_ros2/nexos_ros2.egg-info/top_level.txt
+[0.856s] reading manifest file '../../build/nexos_ros2/nexos_ros2.egg-info/SOURCES.txt'
+[0.857s] writing manifest file '../../build/nexos_ros2/nexos_ros2.egg-info/SOURCES.txt'
+[0.857s] running build
+[0.857s] running build_py
+[0.857s] copying nexos_ros2/nodo_app.py -> /home/eia/Nexos/ros2_ws/build/nexos_ros2/build/lib/nexos_ros2
+[0.858s] copying resource/app_scara/main.py -> /home/eia/Nexos/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara
+[0.858s] copying resource/app_scara/src/cinematica_inversa.py -> /home/eia/Nexos/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/src
+[0.858s] running install
+[0.859s] running install_lib
+[0.859s] copying /home/eia/Nexos/ros2_ws/build/nexos_ros2/build/lib/nexos_ros2/nodo_app.py -> /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2
+[0.860s] copying /home/eia/Nexos/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/main.py -> /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara
+[0.860s] copying /home/eia/Nexos/ros2_ws/build/nexos_ros2/build/lib/resource/app_scara/src/cinematica_inversa.py -> /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/src
+[0.861s] byte-compiling /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2/nodo_app.py to nodo_app.cpython-310.pyc
+[0.861s] byte-compiling /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/main.py to main.cpython-310.pyc
+[0.862s] byte-compiling /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/src/cinematica_inversa.py to cinematica_inversa.cpython-310.pyc
+[0.864s] running install_data
+[0.864s] running install_egg_info
+[0.866s] removing '/home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.866s] Copying ../../build/nexos_ros2/nexos_ros2.egg-info to /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/nexos_ros2-0.0.0-py3.10.egg-info
+[0.868s] running install_scripts
+[0.886s] Installing cinematica_inversa script to /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/nexos_ros2
+[0.887s] Installing nexos_app script to /home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/nexos_ros2
+[0.887s] writing list of installed files to '/home/eia/Nexos/ros2_ws/build/nexos_ros2/install.log'
+[0.903s] Invoked command in '/home/eia/Nexos/ros2_ws/src/nexos_ros2' returned '0': PYTHONPATH=/home/eia/Nexos/ros2_ws/build/nexos_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/Nexos/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nexos_ros2 build --build-base /home/eia/Nexos/ros2_ws/build/nexos_ros2/build install --record /home/eia/Nexos/ros2_ws/build/nexos_ros2/install.log --single-version-externally-managed install_data

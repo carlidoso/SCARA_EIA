@@ -1,0 +1,5 @@
+  File "/home/eia/ros2_ws/install/nexos_ros2/lib/python3.10/site-packages/resource/app_scara/main.py", line 26
+    self.ruta_nexos_icono = os.path.join(directorio_actual, "nexos_icon.png")l
+                                                                             ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,50 @@
+[0.877s] Invoking command in '/home/eia/ros2_ws/src/SCARA_EIA_Tesis_description': PYTHONPATH=/home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/SCARA_EIA_Tesis_description build --build-base /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/build install --record /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/install.log --install-scripts $base/lib/SCARA_EIA_Tesis_description --single-version-externally-managed install_data
+[1.138s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.138s]   warnings.warn(
+[1.147s] running egg_info
+[1.148s] creating ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info
+[1.148s] writing ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/PKG-INFO
+[1.148s] writing dependency_links to ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/dependency_links.txt
+[1.149s] writing entry points to ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/entry_points.txt
+[1.149s] writing requirements to ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/requires.txt
+[1.149s] writing top-level names to ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/top_level.txt
+[1.149s] writing manifest file '../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/SOURCES.txt'
+[1.150s] reading manifest file '../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/SOURCES.txt'
+[1.151s] writing manifest file '../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info/SOURCES.txt'
+[1.152s] running build
+[1.152s] running build_py
+[1.152s] creating /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/build
+[1.152s] creating /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/build/lib
+[1.152s] creating /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/build/lib/SCARA_EIA_Tesis_description
+[1.153s] copying SCARA_EIA_Tesis_description/__init__.py -> /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/build/lib/SCARA_EIA_Tesis_description
+[1.154s] running install
+[1.154s] running install_lib
+[1.154s] creating /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/lib/python3.10/site-packages/SCARA_EIA_Tesis_description
+[1.154s] copying /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/build/lib/SCARA_EIA_Tesis_description/__init__.py -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/lib/python3.10/site-packages/SCARA_EIA_Tesis_description
+[1.154s] byte-compiling /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/lib/python3.10/site-packages/SCARA_EIA_Tesis_description/__init__.py to __init__.cpython-310.pyc
+[1.154s] running install_data
+[1.155s] creating /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/ament_index
+[1.155s] creating /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/ament_index/resource_index
+[1.155s] creating /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/ament_index/resource_index/packages
+[1.155s] copying resource/SCARA_EIA_Tesis_description -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/ament_index/resource_index/packages
+[1.155s] copying package.xml -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description
+[1.155s] creating /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/launch
+[1.155s] copying launch/display.launch.py -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/launch
+[1.155s] copying launch/gazebo.launch.py -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/launch
+[1.156s] creating /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/urdf
+[1.156s] copying urdf/SCARA_EIA_Tesis.gazebo -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/urdf
+[1.156s] copying urdf/materials.xacro -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/urdf
+[1.156s] copying urdf/SCARA_EIA_Tesis.trans -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/urdf
+[1.156s] copying urdf/SCARA_EIA_Tesis.xacro -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/urdf
+[1.156s] creating /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/meshes
+[1.157s] copying meshes/base_link.stl -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/meshes
+[1.157s] copying meshes/FinalEfector_1.stl -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/meshes
+[1.157s] copying meshes/Elbow_1.stl -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/meshes
+[1.157s] copying meshes/Shoulder_1.stl -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/meshes
+[1.157s] creating /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/config
+[1.157s] copying config/display.rviz -> /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/share/SCARA_EIA_Tesis_description/config
+[1.158s] running install_egg_info
+[1.160s] Copying ../../build/SCARA_EIA_Tesis_description/SCARA_EIA_Tesis_description.egg-info to /home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/lib/python3.10/site-packages/SCARA_EIA_Tesis_description-0.0.0-py3.10.egg-info
+[1.160s] running install_scripts
+[1.182s] writing list of installed files to '/home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/install.log'
+[1.204s] Invoked command in '/home/eia/ros2_ws/src/SCARA_EIA_Tesis_description' returned '0': PYTHONPATH=/home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eia/ros2_ws/install/SCARA_EIA_Tesis_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/SCARA_EIA_Tesis_description build --build-base /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/build install --record /home/eia/ros2_ws/build/SCARA_EIA_Tesis_description/install.log --install-scripts $base/lib/SCARA_EIA_Tesis_description --single-version-externally-managed install_data
