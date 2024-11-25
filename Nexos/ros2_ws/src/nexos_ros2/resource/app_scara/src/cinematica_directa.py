@@ -52,7 +52,7 @@ class CinematicaDirecta():
                 msg_.y = self.servo2_ang
                 msg_.z = self.servo3_ang
                 self.req_motor_ang1_publisher.publish(msg_)
-            elif servo == 2 and -105 <= msg <= 105:
+            elif servo == 2 and -100 <= msg <= 100:
                 self.servo2_ang = msg
                 msg_.x = self.servo1_ang
                 msg_.y = self.servo2_ang
